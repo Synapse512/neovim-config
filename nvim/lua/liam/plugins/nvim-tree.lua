@@ -4,14 +4,26 @@ return {
   config = function()
     local nvimtree = require("nvim-tree")
 
-    local hide_root_files = false
-
     nvimtree.setup({
       sync_root_with_cwd = true,
-      respect_buf_cwd = false,
+      respect_buf_cwd = true,
       update_focused_file = {
         enable = true,
-        update_root = false,
+        update_root = true,
+      },
+      -- Stops Windows filesystem lag/memory spikes on large directories
+      filesystem_watchers = {
+        enable = false,
+      },
+      filters = {
+        custom = {
+          "^System Volume Information$",
+          "^%$RECYCLE%.BIN$",
+          "^Windows$",
+          "^Program Files$",
+          "^Program Files %(x86%)$",
+          "^AppData$",
+        },
       },
       view = {
         side = "left",
