@@ -7,10 +7,11 @@ return {
     { "<leader>ff", function() require("fzf-lua").files() end, desc = "fzf files in directory" },
     { "<leader>fc", function() require("fzf-lua").files({ cwd = "C:/" }) end, desc = "fzf C:" },
 
-    -- grep and buffers
-    { "<leader>fw", function() require("fzf-lua").live_grep() end, desc = "fzf live grep" },
+    -- grep, buffers, and keymaps
+    { "<leader>lg", function() require("fzf-lua").live_grep() end, desc = "fzf live grep" },
     { "<leader>fb", function() require("fzf-lua").buffers() end, desc = "fzf buffers" },
-  },
+    { "<leader>l", function() require("fzf-lua").keymaps() end, desc = "fzf keymaps" },
+ },
 
   opts = {
     --"telescope", 
