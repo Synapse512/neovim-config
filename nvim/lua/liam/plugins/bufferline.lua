@@ -3,7 +3,9 @@ return {
   version = "*",
   dependencies = { "nvim-tree/nvim-web-devicons" },
   config = function()
-    require("bufferline").setup({
+    local bufferline = require("bufferline") 
+
+    bufferline.setup({
       options = {
         mode = "buffers",
         diagnostics = "nvim_lsp",
@@ -11,6 +13,7 @@ return {
         show_buffer_close_icons = true,
         show_close_icon = false,
         always_show_bufferline = true,
+
         offsets = {
           {
             filetype = "NvimTree",
@@ -19,7 +22,12 @@ return {
             separator = true,
           },
         },
-      },
+
+        style_preset = {
+          bufferline.style_preset.no_italic,
+          bufferline.style_preset.no_bold,
+        },
+      }, 
     })
   end,
 }
