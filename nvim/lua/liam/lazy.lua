@@ -16,5 +16,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({
-	{import = 'liam.plugins'}
+	{import = 'liam.plugins'},
+    {import = 'liam.plugins.lsp'}
 })
