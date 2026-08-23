@@ -1,16 +1,17 @@
 return {
-    'nvim-treesitter/nvim-treesitter',
-    build = ':TSUpdate',
-
-    opts = {
-       ensure_installed  = {
-       "luau",
-       "lua",
-       "cpp",
-       "c"
+  "nvim-treesitter/nvim-treesitter",
+  branch = "master",
+  build = ":TSUpdate",
+  main = "nvim-treesitter.configs",
+  opts = {
+    ensure_installed = {
+      "luau",
+      "lua",
+      "cpp",
+      "c",
     },
-   },
-
-   highlight = {enable = true},
-
+    highlight = {
+      enable = true,
+    },
+  },
 }
