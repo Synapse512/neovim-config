@@ -1,5 +1,8 @@
 ### my neovim configuration
-* features fuzzy finding, explorer window, file tabs, and workspaces 
+* features fuzzy finding, file explorer + tabs, workspaces, and dedicated luau support
+<img width="720" height="454.5" alt="image" src="https://github.com/user-attachments/assets/d17d6822-289e-441d-8452-156c757d758a" />
+
+
 
 ## General Keymaps
 
