@@ -31,6 +31,16 @@ return {
         -- tab keymaps
         vim.keymap.set("n", "<S-h>", "<cmd>BufferLineCyclePrev<CR>", { desc = "Go to previous buffer (bufferline)" }),
         vim.keymap.set("n", "<S-l>", "<cmd>BufferLineCycleNext<CR>", { desc = "Go to next buffer (bufferline)" }),
+        vim.keymap.set("n", "<S-x>", function()
+         local cur = vim.api.nvim_get_current_buf()
+          vim.cmd("bprevious")
+
+          if vim.api.nvim_get_current_buf() == cur then
+            vim.cmd("enew")
+          end
+          vim.bo[cur].buflisted = false
+        end, { desc = "Close tab (bufferline)" })
+        
 
       }, 
     })

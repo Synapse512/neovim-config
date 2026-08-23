@@ -19,6 +19,7 @@
 | :--- | :--- | :--- |
 | `bufferline.nvim` | `<S-h>` | Go to previous buffer (bufferline) |
 | `bufferline.nvim` | `<S-l>` | Go to next buffer (bufferline) |
+| `bufferline.nvim` | `<S-x>` | Close tab (bufferline) |
 | `fzf-lua` | `<leader>ff` | search files in directory (fzf) |
 | `fzf-lua` | `<leader>fc` | search C: (fzf) |
 | `fzf-lua` | `<leader>lg` | live grep (fzf) |
