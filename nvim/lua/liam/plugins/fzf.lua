@@ -4,13 +4,13 @@ return {
   
   keys = {
     -- search files, directories, or entire c drive
-    { "<leader>ff", function() require("fzf-lua").files() end, desc = "fzf files in directory" },
-    { "<leader>fc", function() require("fzf-lua").files({ cwd = "C:/" }) end, desc = "fzf C:" },
+    { "<leader>ff", function() require("fzf-lua").files() end, desc = "search files in directory (fzf)" },
+    { "<leader>fc", function() require("fzf-lua").files({ cwd = "C:/" }) end, desc = "search C: (fzf)" },
 
     -- grep, buffers, and keymaps
-    { "<leader>lg", function() require("fzf-lua").live_grep() end, desc = "fzf live grep" },
-    { "<leader>fb", function() require("fzf-lua").buffers() end, desc = "fzf buffers" },
-    { "<leader>l", function() require("fzf-lua").keymaps() end, desc = "fzf keymaps" },
+    { "<leader>lg", function() require("fzf-lua").live_grep() end, desc = "live grep (fzf)" },
+    { "<leader>fb", function() require("fzf-lua").buffers() end, desc = "open buffers (fzf)" },
+    { "<leader>l", function() require("fzf-lua").keymaps() end, desc = "keymaps (fzf)" },
  },
 
   opts = {

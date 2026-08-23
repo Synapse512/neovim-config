@@ -26,6 +26,12 @@ return {
           bufferline.style_preset.no_italic,
           bufferline.style_preset.no_bold,
         },
+
+
+        -- tab keymaps
+        vim.keymap.set("n", "<S-h>", "<cmd>BufferLineCyclePrev<CR>", { desc = "Go to previous buffer (bufferline)" }),
+        vim.keymap.set("n", "<S-l>", "<cmd>BufferLineCycleNext<CR>", { desc = "Go to next buffer (bufferline)" }),
+
       }, 
     })
   end,
