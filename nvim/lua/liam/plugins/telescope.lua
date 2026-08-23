@@ -1,4 +1,4 @@
--- i have this purely for project.nvim (which i dont use anymore)
+ -- i have this purely for project.nvim (which i dont use anymore)
 return {
     enabled = false,
     'nvim-telescope/telescope.nvim', version = '*',

@@ -10,7 +10,7 @@ return {
     -- grep, buffers, and keymaps
     { "<leader>lg", function() require("fzf-lua").live_grep() end, desc = "live grep (fzf)" },
     { "<leader>fb", function() require("fzf-lua").buffers() end, desc = "open buffers (fzf)" },
-    { "<leader>l", function() require("fzf-lua").keymaps() end, desc = "keymaps (fzf)" },
+    { "<leader>fl", function() require("fzf-lua").keymaps() end, desc = "keymaps (fzf)" },
  },
 
   opts = {

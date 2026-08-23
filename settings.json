@@ -75,6 +75,7 @@
             {
                 "face": "Consolas"
             },
+            "padding": "0, 0, 0, 0",
             "opacity": 100,
             "useAcrylic": true
         },

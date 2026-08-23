@@ -14,6 +14,7 @@
 | `<C-l>` | Move to right window |
 
 ## Plugin Keymaps
+* Keymaps have plugin name at end to make fzf-keymap finder easy to use
 
 | Plugin | Keymap | Description |
 | :--- | :--- | :--- |
@@ -24,7 +25,7 @@
 | `fzf-lua` | `<leader>fc` | search C: (fzf) |
 | `fzf-lua` | `<leader>lg` | live grep (fzf) |
 | `fzf-lua` | `<leader>fb` | open buffers (fzf) |
-| `fzf-lua` | `<leader>l` | keymaps (fzf) |
+| `fzf-lua` | `<leader>fl` | keymaps (fzf) |
 | `nvim-cmp` | `<C-j>` | Select next item |
 | `nvim-cmp` | `<C-k>` | Select previous item |
 | `nvim-cmp` | `<C-b>` | Scroll documentation up (-4) |
@@ -39,3 +40,15 @@
 | `workspaces.nvim` | `<leader>aw` | Add workspace (workspaces) |
 | `workspaces.nvim` | `<leader>ow` | Open workspace (workspaces) |
 | `workspaces.nvim` | `<leader>rw` | Remove workspace (workspaces) |
+
+## Terminal Shortcuts
+
+| Shortcut | Description |
+| :--- | :--- |
+| `Ctrl + Shift + T` | Create terminal tab |
+| `Ctrl + Shift + W` | Close terminal tab |
+| `Ctrl + Tab` | Switch terminal tab |
+| `Ctrl + Shift + Tab` | Switch to previous tab |
+| `Ctrl + Alt + [number]` | Jump to specific tab |
+| `Ctrl + Shift + D` | Split pane side by side |
+| `Alt + Shift + D` | Split pane horizontally |

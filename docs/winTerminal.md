@@ -7,27 +7,3 @@
 #### **CONSOLAS NERD FONT FOR TERMINAL**
 * https://github.com/ongyx/consolas-nf/blob/master/ConsolasNerdFontMono-Regular.ttf
 
----
-
-### Terminal Keyboard Shortcuts
-
-* create terminal tab
-'ctrl' + 'shift' + 't'
-
-* close terminal tab
-'ctrl' + 'shift' + 'w'
-
-* switch terminal tab
-'ctrl' + 'tab'
-
-* switch to previous tab
-'ctrl' + 'shift' + 'tab'
-
-* jump to specific tab
-'ctrl' + 'alt' + '[number]'
-
-* split pane side by side
-'ctrl' + 'shift' + 'd'
-
-* split pane horizontally
-'alt' + 'shift' + 'd'
