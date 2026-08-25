@@ -12,6 +12,8 @@
 | `<C-j>` | Move to lower window |
 | `<C-k>` | Move to upper window |
 | `<C-l>` | Move to right window |
+| `<S-Right>` | Next Tab |
+| `<S-Left>` | Previous Tab |
 
 ## Plugin Keymaps
 * Keymaps have plugin name at end to make fzf-keymap finder easy to use
@@ -26,20 +28,17 @@
 | `fzf-lua` | `<leader>lg` | live grep (fzf) |
 | `fzf-lua` | `<leader>fb` | open buffers (fzf) |
 | `fzf-lua` | `<leader>fl` | keymaps (fzf) |
-| `nvim-cmp` | `<C-j>` | Select next item |
-| `nvim-cmp` | `<C-k>` | Select previous item |
-| `nvim-cmp` | `<C-b>` | Scroll documentation up (-4) |
-| `nvim-cmp` | `<C-f>` | Scroll documentation down (+4) |
-| `nvim-cmp` | `<C-Space>` | Trigger completion menu |
-| `nvim-cmp` | `<C-e>` | Abort completion |
+| `nvim-cmp` | `<C-j>` / `<Tab>` | Select next item |
+| `nvim-cmp` | `<C-k>` / `<S-Tab>` | Select previous item |
 | `nvim-cmp` | `<CR>` | Confirm completion selection |
-| `nvim-cmp` | `<Tab>` | Select next item (if completion menu visible) |
-| `nvim-cmp` | `<S-Tab>` | Select previous item (if completion menu visible) |
 | `nvim-tree` | `<C-n>` | Toggle file explorer (nvim-tree) |
 | `nvim-tree` | `<leader>e` | Focus file explorer (nvim-tree) |
 | `workspaces.nvim` | `<leader>aw` | Add workspace (workspaces) |
 | `workspaces.nvim` | `<leader>ow` | Open workspace (workspaces) |
 | `workspaces.nvim` | `<leader>rw` | Remove workspace (workspaces) |
+| `diffview.nvim` | `<leader>gd` | Open Git Diff (diff-view) |
+| `diffview.nvim` | `<leader>gD` | Close Git Diff (diff-view) |
+| `diffview.nvim` | `<leader>gh` | Current File History (diff-view) |
 
 ## Terminal Shortcuts
 

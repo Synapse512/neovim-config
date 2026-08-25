@@ -5,13 +5,12 @@ return {
     local nvimtree = require("nvim-tree")
 
     nvimtree.setup({
-      sync_root_with_cwd = true,
+      sync_root_with_cwd = false,
       respect_buf_cwd = true,
       update_focused_file = {
         enable = true,
-        update_root = true,
+        update_root = false,
       },
-      -- Stops Windows filesystem lag/memory spikes on large directories
       filesystem_watchers = {
         enable = false,
       },
